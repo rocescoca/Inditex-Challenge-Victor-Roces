@@ -1,0 +1,24 @@
+.expression {
+  color: var(--color-secondary);
+  text-align: center;
+}
+
+.expression-iconVisibleOnHover {
+  color: transparent;
+  margin-left: 1rem;
+}
+
+.expression:hover .expression-iconVisibleOnHover {
+  color: inherit;
+}
+
+.expression .operation {
+  color: var(--color-special);
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.expression .equal {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}

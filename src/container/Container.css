@@ -1,0 +1,63 @@
+.container {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.theme-Default {
+  --color-primary: black;
+  --color-secondary: white;
+  --color-tertiary: grey;
+  --color-special: orange;
+  --color-equal: lime;
+}
+
+.theme-Blue-Steel {
+  --color-primary: #7689a9;
+  --color-secondary: #051838;
+  --color-tertiary: #4d658d;
+  --color-special: #acb5c5;
+  --color-equal: green;
+}
+
+.theme-Forest {
+  --color-primary: #b8dab8;
+  --color-secondary: #53a553;
+  --color-tertiary: #74b974;
+  --color-special: #328f32;
+  --color-equal: grey;
+}
+
+.theme-selector {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.theme-selector button {
+  width: 2rem;
+  height: 2rem;
+  margin: 0.5rem;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.theme-selector button:hover {
+  transform: scale(1.1);
+}
+
+.theme-selector button.theme-Default {
+  background-color: black;
+}
+
+.theme-selector button.theme-Blue-Steel {
+  background-color: #7689a9;
+}
+
+.theme-selector button.theme-Forest {
+  background-color: #b8dab8;
+}

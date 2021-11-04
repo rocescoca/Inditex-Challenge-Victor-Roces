@@ -1,0 +1,14 @@
+@import url(sanitize.css);
+
+:root {
+  --color-primary: black;
+  --color-secondary: white;
+  --color-tertiary: grey;
+  --color-special: orange;
+  --color-equal: lime;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Fira Code", monospace;
+}

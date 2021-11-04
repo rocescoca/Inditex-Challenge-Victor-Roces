@@ -1,0 +1,40 @@
+.history {
+  position: relative;
+}
+
+.history-scrollContainer {
+  position: absolute;
+  height: 100%;
+  left: 0;
+  right: 0;
+  width: 100%;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.history-scrollContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.history .expression {
+  margin-left: 2rem;
+  margin-right: 1rem;
+  font-size: clamp(0.75rem, 4vw, 1.5rem);
+  cursor: pointer;
+}
+
+.history .expression .equal {
+  color: var(--color-equal);
+}
+
+.emptyHistory {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.emptyHistory-icon {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  color: var(--color-special);
+}
